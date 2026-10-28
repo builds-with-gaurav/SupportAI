@@ -1,0 +1,39 @@
+text,category,priority,sentiment,intent
+"my payment failed and money was deducted",Payment,High,Negative,Payment Failure
+"the transaction failed",Payment,High,Negative,Payment Failure
+"payment is not going through",Payment,High,Negative,Payment Failure
+"card payment was declined",Payment,High,Negative,Payment Failure
+"money was charged but order was not created",Payment,High,Negative,Payment Failure
+"refund has not arrived yet",Refund,Medium,Negative,Refund Status
+"when will I receive my refund",Refund,Medium,Neutral,Refund Status
+"I requested a refund several days ago",Refund,Medium,Negative,Refund Status
+"please tell me about my refund",Refund,Low,Neutral,Refund Status
+"I want to cancel my order",Order,Medium,Neutral,Order Cancellation
+"please cancel my recent order",Order,Medium,Neutral,Order Cancellation
+"how can I cancel my order",Order,Low,Neutral,Order Cancellation
+"my order has not arrived",Delivery,High,Negative,Delivery Delay
+"where is my order",Delivery,Medium,Neutral,Order Tracking
+"my package is delayed",Delivery,High,Negative,Delivery Delay
+"delivery is taking too long",Delivery,High,Negative,Delivery Delay
+"can I track my package",Delivery,Low,Neutral,Order Tracking
+"how do I change my password",Account,Low,Neutral,Password Reset
+"I forgot my password",Account,Medium,Negative,Password Reset
+"I cannot login to my account",Account,High,Negative,Login Problem
+"my account login is not working",Account,High,Negative,Login Problem
+"I want to update my email address",Account,Low,Neutral,Account Update
+"the application is crashing",Technical,High,Negative,Technical Problem
+"the website is not loading",Technical,High,Negative,Technical Problem
+"the app stopped working",Technical,High,Negative,Technical Problem
+"there is an error on the website",Technical,Medium,Negative,Technical Problem
+"how can I change my account details",Account,Low,Neutral,Account Update
+"thank you for solving my problem",General,Low,Positive,General Question
+"I have a question about your service",General,Low,Neutral,General Question
+"can you help me",General,Low,Neutral,General Question
+"thank you so much for your quick help",General,Low,Positive,General Question
+"your support team was very helpful",General,Low,Positive,General Question
+"great service, thank you",General,Low,Positive,General Question
+"the problem has been solved, thanks",General,Low,Positive,General Question
+"everything is working perfectly now",General,Low,Positive,General Question
+"excellent support from your team",General,Low,Positive,General Question
+"thank you for resolving my issue",General,Low,Positive,General Question
+"my issue was handled quickly",General,Low,Positive,General Question
